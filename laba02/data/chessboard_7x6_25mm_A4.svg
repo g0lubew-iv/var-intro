@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1">
+  <title>Chessboard 8x7 squares (7x6 inner corners), 25 mm squares, A4</title>
+  <desc>Printable chessboard for camera calibration: 8x7 squares, each 25 mm. Inner corners grid 7x6.</desc>
+  <defs/>
+  <rect x="0" y="0" width="210" height="297" fill="#ffffff"/>
+  <!-- Margin 10 mm -->
+  <g transform="translate(10,10)">
+    <!-- Board size: 8x7 squares of 25mm => 200 x 175 mm -->
+    <g id="board" stroke="none" stroke-width="0">
+      <!-- Draw 8 columns (x 0..7), 7 rows (y 0..6) -->
+      <!-- Black squares -->
+      <!-- We fill black when (row+col) % 2 == 0 -->
+      <!-- Generated manually to avoid scripting -->
+      <!-- Row 0 (y=0) -->
+      <rect x="0" y="0" width="25" height="25" fill="#000"/>
+      <rect x="50" y="0" width="25" height="25" fill="#000"/>
+      <rect x="100" y="0" width="25" height="25" fill="#000"/>
+      <rect x="150" y="0" width="25" height="25" fill="#000"/>
+      <!-- Row 1 (y=25) -->
+      <rect x="25" y="25" width="25" height="25" fill="#000"/>
+      <rect x="75" y="25" width="25" height="25" fill="#000"/>
+      <rect x="125" y="25" width="25" height="25" fill="#000"/>
+      <rect x="175" y="25" width="25" height="25" fill="#000"/>
+      <!-- Row 2 (y=50) -->
+      <rect x="0" y="50" width="25" height="25" fill="#000"/>
+      <rect x="50" y="50" width="25" height="25" fill="#000"/>
+      <rect x="100" y="50" width="25" height="25" fill="#000"/>
+      <rect x="150" y="50" width="25" height="25" fill="#000"/>
+      <!-- Row 3 (y=75) -->
+      <rect x="25" y="75" width="25" height="25" fill="#000"/>
+      <rect x="75" y="75" width="25" height="25" fill="#000"/>
+      <rect x="125" y="75" width="25" height="25" fill="#000"/>
+      <rect x="175" y="75" width="25" height="25" fill="#000"/>
+      <!-- Row 4 (y=100) -->
+      <rect x="0" y="100" width="25" height="25" fill="#000"/>
+      <rect x="50" y="100" width="25" height="25" fill="#000"/>
+      <rect x="100" y="100" width="25" height="25" fill="#000"/>
+      <rect x="150" y="100" width="25" height="25" fill="#000"/>
+      <!-- Row 5 (y=125) -->
+      <rect x="25" y="125" width="25" height="25" fill="#000"/>
+      <rect x="75" y="125" width="25" height="25" fill="#000"/>
+      <rect x="125" y="125" width="25" height="25" fill="#000"/>
+      <rect x="175" y="125" width="25" height="25" fill="#000"/>
+      <!-- Row 6 (y=150) -->
+      <rect x="0" y="150" width="25" height="25" fill="#000"/>
+      <rect x="50" y="150" width="25" height="25" fill="#000"/>
+      <rect x="100" y="150" width="25" height="25" fill="#000"/>
+      <rect x="150" y="150" width="25" height="25" fill="#000"/>
+
+      <!-- Outer stroke around the board -->
+      <rect x="0" y="0" width="200" height="175" fill="none" stroke="#000" stroke-width="0.5"/>
+    </g>
+  </g>
+  <text x="10" y="295" font-family="monospace" font-size="3.5" fill="#000">8x7 squares (25 mm). Inner corners: 7x6. A4. Scale=1:1</text>
+</svg>
+

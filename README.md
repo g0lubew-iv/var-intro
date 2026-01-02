@@ -70,3 +70,5 @@ colmap stereo_fusion --workspace_path dense --output_path dense/fused.ply
    - Стабильности камеры при съёмке
 
 # ЛАБОРАТОРНАЯ 02
+
+Всё в solution.ipynb
