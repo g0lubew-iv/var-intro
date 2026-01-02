@@ -1,5 +1,5 @@
-laba01/rembg_env # virtual enviroment
-laba01/src       # source photos (bad; with cup)
+laba01/rembg_env/ # virtual enviroment
+*/src/            # source photos (bad; with cup)
 */database.db
 */database.db-shm
 */database.db-wal
